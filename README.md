@@ -5,11 +5,11 @@ This is the backend built for Travel App with Flask framework.
 Our tasks resource will use HTTP methods as follows:
 
 | HTTP Method   | URI                                                   |Action                                     |
-| ------------- |:-----------------------------------------------------:| -----------------------------------------:|
+| ------------- |:-----------------------------------------------------:|:------------------------------------------|
 | GET           | http://[hostname]/FlyDubai/api/cities                 | Retrieve information of all cities        |
 | GET           | http://[hostname]/FlyDubai/api/cities/[city_id]       | Retrieve information of a particular city |
 | GET           | http://[hostname]/FlyDubai/api/cities/[city_name]     | Retrieve information of a particular city |
-| POST           | http://[hostname]/FlyDubai/api/cities                | Create a new city in the list             |
+| POST          | http://[hostname]/FlyDubai/api/cities                 | Create a new city in the list             |
 
 
 
